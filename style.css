@@ -1,0 +1,128 @@
+* {
+  margin: 12px;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* container for 1 */
+#for1 {
+  width: 220px;
+  height: 130px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+div.cool h2 {
+  color: rgb(153, 153, 153);
+}
+div.main h2 {
+  color: rgb(153, 153, 153);
+}
+.loop {
+  background-color: rgb(66, 197, 138);
+  color: white;
+  animation: loop 7s linear infinite;
+}
+
+/* container for 2 */
+#for2 {
+  width: 220px;
+  height: 130px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+div.cool2 h2 {
+  color: rgb(153, 153, 153);
+}
+div.main2 h2 {
+  color: rgb(153, 153, 153);
+}
+div.loop2 h2 {
+  background-color: rgb(78, 199, 243);
+  color: white;
+  animation: loop2 6s linear infinite;
+}
+
+#for3 {
+  width: 220px;
+  height: 130px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+div.cool3 h2 {
+  color: rgb(153, 153, 153);
+}
+div.main3 h2 {
+  color: rgb(153, 153, 153);
+}
+div.loop3 h2 {
+  background-color: rgb(220, 20, 60);
+  color: white;
+  animation: loop3 8s linear infinite;
+}
+
+@keyframes loop {
+  0% {
+    width: 40%;
+  }
+  10% {
+    width: 100%;
+  }
+
+  70% {
+    width: 0%;
+  }
+  90% {
+    width: 40%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes loop2 {
+  0% {
+    width: 40%;
+  }
+  10% {
+    width: 100%;
+  }
+
+  70% {
+    width: 0%;
+  }
+  90% {
+    width: 40%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes loop3 {
+  0% {
+    width: 40%;
+  }
+  10% {
+    width: 100%;
+  }
+
+  70% {
+    width: 0%;
+  }
+  90% {
+    width: 40%;
+  }
+  100% {
+    width: 100%;
+  }
+}
